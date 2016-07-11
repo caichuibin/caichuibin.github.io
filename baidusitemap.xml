@@ -4,17 +4,44 @@
 
     
   <url>
+    <loc>https://caichuibin.github.io/2016/07/11/JVM-GC%E8%AF%A6%E8%A7%A3/</loc>
+    <lastmod>2016-07-11T09:47:45.667Z</lastmod>
+    <data>
+        <display>
+        <title>JVM GC详解</title>
+        <pubTime>2016-07-11T09:47:09.000Z</pubTime>
+        
+        <tag>Injury</tag>
+         
+        <tag>IT</tag>
+         
+         
+           
+             
+              <breadCrumb title="Sports" url="https://caichuibin.github.io/categories/Sports/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>https://caichuibin.github.io/2016/07/07/hexo-install/</loc>
-    <lastmod>2016-07-08T09:49:56.401Z</lastmod>
+    <lastmod>2016-07-11T09:44:27.077Z</lastmod>
     <data>
         <display>
         <title>hexo-install</title>
         <pubTime>2016-07-07T12:30:37.000Z</pubTime>
         
+        <tag>Injury</tag>
+         
         <tag>IT</tag>
          
          
            
+             
+              <breadCrumb title="Sports" url="https://caichuibin.github.io/categories/Sports/"/>
+          
         </display>
     </data>
     </url>
@@ -22,16 +49,23 @@
     
   <url>
     <loc>https://caichuibin.github.io/2016/07/07/hello-world/</loc>
-    <lastmod>2016-07-07T13:33:11.580Z</lastmod>
+    <lastmod>2016-07-11T09:44:23.644Z</lastmod>
     <data>
         <display>
         <title>Hello World</title>
         <pubTime>2016-07-07T08:23:10.921Z</pubTime>
         
+        <tag>杂的文</tag>
+         
          
            
+             
+              <breadCrumb title="Baseball" url="https://caichuibin.github.io/categories/Baseball/"/>
+          
         </display>
     </data>
     </url>
 
+    
+    
 </urlset>

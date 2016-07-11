@@ -2,16 +2,37 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://caichuibin.github.io/2016/07/11/JVM-GC%E8%AF%A6%E8%A7%A3/</loc>
+    
+    <lastmod>2016-07-11T09:47:45.667Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://caichuibin.github.io/2016/07/07/hexo-install/</loc>
     
-    <lastmod>2016-07-08T09:49:56.401Z</lastmod>
+    <lastmod>2016-07-11T09:44:27.077Z</lastmod>
     
   </url>
   
   <url>
     <loc>https://caichuibin.github.io/2016/07/07/hello-world/</loc>
     
-    <lastmod>2016-07-07T13:33:11.580Z</lastmod>
+    <lastmod>2016-07-11T09:44:23.644Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://caichuibin.github.io/about/index.html</loc>
+    
+    <lastmod>2016-07-11T09:40:37.831Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://caichuibin.github.io/tags/index.html</loc>
+    
+    <lastmod>2016-07-11T09:38:04.836Z</lastmod>
     
   </url>
   

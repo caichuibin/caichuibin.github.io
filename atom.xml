@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>Chuibin Cai&#39;s website</title>
+  <title>当然我在扯淡</title>
   <subtitle>Thinking</subtitle>
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://caichuibin.github.io/"/>
-  <updated>2016-07-08T09:49:56.401Z</updated>
+  <updated>2016-07-11T09:47:45.667Z</updated>
   <id>https://caichuibin.github.io/</id>
   
   <author>
@@ -16,11 +16,37 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>JVM GC详解</title>
+    <link href="https://caichuibin.github.io/2016/07/11/JVM-GC%E8%AF%A6%E8%A7%A3/"/>
+    <id>https://caichuibin.github.io/2016/07/11/JVM-GC详解/</id>
+    <published>2016-07-11T09:47:09.000Z</published>
+    <updated>2016-07-11T09:47:45.667Z</updated>
+    
+    <content type="html">&lt;p&gt;JVM-GC详解&lt;/p&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;JVM-GC详解&lt;/p&gt;
+
+    
+    </summary>
+    
+      <category term="Sports" scheme="https://caichuibin.github.io/categories/Sports/"/>
+    
+    
+      <category term="Injury" scheme="https://caichuibin.github.io/tags/Injury/"/>
+    
+      <category term="IT" scheme="https://caichuibin.github.io/tags/IT/"/>
+    
+  </entry>
+  
+  <entry>
     <title>hexo-install</title>
     <link href="https://caichuibin.github.io/2016/07/07/hexo-install/"/>
     <id>https://caichuibin.github.io/2016/07/07/hexo-install/</id>
     <published>2016-07-07T12:30:37.000Z</published>
-    <updated>2016-07-08T09:49:56.401Z</updated>
+    <updated>2016-07-11T09:44:27.077Z</updated>
     
     <content type="html">&lt;blockquote&gt;
 &lt;p&gt;####&lt;br&gt;Hexo安装文档&lt;/p&gt;
@@ -36,6 +62,10 @@
     
     </summary>
     
+      <category term="Sports" scheme="https://caichuibin.github.io/categories/Sports/"/>
+    
+    
+      <category term="Injury" scheme="https://caichuibin.github.io/tags/Injury/"/>
     
       <category term="IT" scheme="https://caichuibin.github.io/tags/IT/"/>
     
@@ -46,7 +76,7 @@
     <link href="https://caichuibin.github.io/2016/07/07/hello-world/"/>
     <id>https://caichuibin.github.io/2016/07/07/hello-world/</id>
     <published>2016-07-07T08:23:10.921Z</published>
-    <updated>2016-07-07T13:33:11.580Z</updated>
+    <updated>2016-07-11T09:44:23.644Z</updated>
     
     <content type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;documentation&lt;/a&gt; for more info. If you get any problems when using Hexo, you can find the answer in &lt;a href=&quot;https://hexo.io/docs/troubleshooting.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;troubleshooting&lt;/a&gt; or you can ask me on &lt;a href=&quot;https://github.com/hexojs/hexo/issues&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
 &lt;h2 id=&quot;Quick-Start&quot;&gt;&lt;a href=&quot;#Quick-Start&quot; class=&quot;headerlink&quot; title=&quot;Quick Start&quot;&gt;&lt;/a&gt;Quick Start&lt;/h2&gt;&lt;h3 id=&quot;Create-a-new-post&quot;&gt;&lt;a href=&quot;#Create-a-new-post&quot; class=&quot;headerlink&quot; title=&quot;Create a new post&quot;&gt;&lt;/a&gt;Create a new post&lt;/h3&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;1&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;$ hexo new &lt;span class=&quot;string&quot;&gt;&quot;My New Post&quot;&lt;/span&gt;&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
@@ -65,6 +95,10 @@
     
     </summary>
     
+      <category term="Baseball" scheme="https://caichuibin.github.io/categories/Baseball/"/>
+    
+    
+      <category term="杂的文" scheme="https://caichuibin.github.io/tags/%E6%9D%82%E7%9A%84%E6%96%87/"/>
     
   </entry>
   

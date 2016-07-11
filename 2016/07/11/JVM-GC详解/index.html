@@ -3,17 +3,18 @@
 <head>
   <meta charset="utf-8">
   
-  <title>Tag: IT | 当然我在扯淡</title>
+  <title>JVM GC详解 | 当然我在扯淡</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="I&apos;m back">
-<meta property="og:type" content="website">
-<meta property="og:title" content="当然我在扯淡">
-<meta property="og:url" content="https://caichuibin.github.io/tags/IT/index.html">
+  <meta name="description" content="JVM-GC详解">
+<meta property="og:type" content="article">
+<meta property="og:title" content="JVM GC详解">
+<meta property="og:url" content="https://caichuibin.github.io/2016/07/11/JVM-GC详解/index.html">
 <meta property="og:site_name" content="当然我在扯淡">
-<meta property="og:description" content="I&apos;m back">
+<meta property="og:description" content="JVM-GC详解">
+<meta property="og:updated_time" content="2016-07-11T09:47:45.667Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="当然我在扯淡">
-<meta name="twitter:description" content="I&apos;m back">
+<meta name="twitter:title" content="JVM GC详解">
+<meta name="twitter:description" content="JVM-GC详解">
 <meta name="twitter:creator" content="@https://twwitter.com">
 <link rel="publisher" href="https://googleplus.com">
 <meta property="fb:admins" content="https://caichuibin.github.io">
@@ -83,58 +84,87 @@ var _hmt = _hmt || [];
   </div>
 </header>
       <div class="outer">
-        <section id="main">
-  
-  
-    
-    
-      
-      
-      <section class="archives-wrap">
-        <div class="archive-year-wrap">
-          <a href="/archives/2016" class="archive-year">2016</a>
-        </div>
-        <div class="archives">
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      <a href="/2016/07/11/JVM-GC详解/" class="archive-article-date">
-  <time datetime="2016-07-11T09:47:09.000Z" itemprop="datePublished">Jul 11</time>
+        <section id="main"><article id="post-JVM-GC详解" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2016/07/11/JVM-GC详解/" class="article-date">
+  <time datetime="2016-07-11T09:47:09.000Z" itemprop="datePublished">2016-07-11</time>
 </a>
-      
+    
+  <div class="article-category">
+    <a class="article-category-link" href="/categories/Sports/">Sports</a>
+  </div>
+
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
   
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2016/07/11/JVM-GC详解/">JVM GC详解</a>
+    <h1 class="article-title" itemprop="name">
+      JVM GC详解
     </h1>
   
 
-    </header>
-  </div>
-</article>
-  
+      </header>
     
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      <a href="/2016/07/07/hexo-install/" class="archive-article-date">
-  <time datetime="2016-07-07T12:30:37.000Z" itemprop="datePublished">Jul 7</time>
-</a>
+    <div class="article-entry" itemprop="articleBody">
       
-  
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2016/07/07/hexo-install/">hexo-install</a>
-    </h1>
-  
+        <p>JVM-GC详解</p>
 
-    </header>
+      
+    </div>
+    
+    <footer class="article-footer">
+      <a data-url="https://caichuibin.github.io/2016/07/11/JVM-GC详解/" data-id="ciqhuka7j00009sp2wnxbm5jb" class="article-share-link">Share</a>
+      
+      
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/IT/">IT</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Injury/">Injury</a></li></ul>
+
+    </footer>
   </div>
+  
+    
+<nav id="article-nav">
+  
+  
+    <a href="/2016/07/07/hexo-install/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Older</strong>
+      <div class="article-nav-title">hexo-install</div>
+    </a>
+  
+</nav>
+
+  
 </article>
-  
-  
-    </div></section>
-  
+
+
+
+<!--//如果不是首页且没使用 `comments: false` 关闭评论，则尝试加载评论 
+
+    <!--//配置中启用多说时，导入相应代码 -->
+     
+      <!--//导入comment.ejs时，同时指定其中几个变量的内容。 -->
+      <section class="duoshuo" id="comments">
+    <!-- 多说评论框 start -->
+    <div class="ds-thread" data-thread-key="2016/07/11/JVM-GC详解/" data-title="JVM GC详解" data-url="https://caichuibin.github.io/2016/07/11/JVM-GC详解/"></div>
+    <!-- 多说评论框 end -->
+    <!-- 多说公共JS代码 start (一个网页只需插入一次) -->
+    <script type="text/javascript">
+    var duoshuoQuery = {short_name:"caichuibin"};
+    (function() {
+        var ds = document.createElement('script');
+        ds.type = 'text/javascript';ds.async = true;
+        ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
+        ds.charset = 'UTF-8';
+        (document.getElementsByTagName('head')[0] 
+         || document.getElementsByTagName('body')[0]).appendChild(ds);
+    })();
+    </script>
+    <!-- 多说公共JS代码 end -->
+</section>
+        
+
 
 </section>
         
